@@ -16,6 +16,7 @@ body {
 header {
 	background-color: teal;
 	height: 300px;
+	box-shadow: 0px 0px 4px black;
 
 	img {
 		height: 100%;
@@ -55,14 +56,13 @@ header > ul > li {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 20px;
-	padding: 20px 50px;
+	gap: 10px;
 	margin-top: 20px;
 }
 .card_services {
 	color: white;
-	width: 60px;
-	padding: 15px;
+	width: 100px;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -76,14 +76,13 @@ header > ul > li {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		gap: 20px;
-		padding: 20px 10px;
+		gap: 10px;
 		margin-top: 20px;
 
 		.card_outils {
 			color: black;
-			width: 120px;
-			padding: 5px;
+			width: 100px;
+			padding: 10px;
 		}
 	}
 }
@@ -99,14 +98,13 @@ header > ul > li {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		gap: 20px;
-		padding: 20px 10px;
+		gap: 10px;
 		margin-top: 20px;
 	}
 	.card_ressources {
 		color: white;
-		width: 120px;
-		padding: 5px;
+		width: 100px;
+		padding: 10px;
 	}
 }
 #section_projets {
@@ -184,36 +182,33 @@ footer > ul {
 
 h1 {
 	font-size: 30px;
-	color: #e1ad01;
+	color: teal;
 }
 
 h2 {
 	font-size: 24px;
-	color: #e1ad01;
+	color: teal;
 	font-weight: bold;
 }
 
 h3 {
 	font-size: 20px;
 }
-h4 {
-	font-size: 16px;
-	margin: 0px 0px 10px 0px;
-	text-align: center;
-}
 
 p {
 	font-size: 16px;
-	margin: 0px 0px 5px 0px;
 }
 
+.info {
+	font-size: 12px;
+}
 a {
 	text-decoration: none;
 	color: white;
 }
 
 .ico_card {
-	width: 80px;
+	width: 50px;
 }
 .button {
 	background-color: #e1ad01;
@@ -221,6 +216,7 @@ a {
 	max-width: 300px;
 	margin: 20px auto;
 	box-shadow: 0px 0px 5px black;
+	border-radius: 5px;
 }
 
 .button:hover {
