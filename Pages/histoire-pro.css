@@ -1,25 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	/*border: 1px solid black;*/
+}
+
+body {
+	line-height: 1.5;
+	font-family: "Baloo 2", sans-serif;
+	font-optical-sizing: none;
+	font-style: normal;
+	text-align: center;
+}
+
 .histoire-sstitre {
-  margin-top: 30px;
-  font-weight: bolder;
-  color: teal;
+	margin-top: 30px;
+	font-weight: bolder;
+	color: teal;
 }
 
 .histoire-corps {
-  border: 2px solid teal;
-  margin: 30px;
-  padding: 30px;
+	border: 2px solid teal;
+	margin: 30px;
+	padding: 30px;
 }
 
 .divhistoire > p {
-  text-align: justify;
+	text-align: justify;
 }
 
 .histoire-signature {
-  font-size: 20px;
-  padding: 0px 5% 0px 0px;
-  text-align: right;
+	font-size: 20px;
+	padding: 0px 5% 0px 0px;
+	text-align: right;
 }
 
 .article_bienvenue {
-  margin: 10px 20px;
+	margin: 10px 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 40px 2%;
+	text-align: center;
+	margin: 0px;
+	padding-left: 0px;
+}
+footer > ul {
+	list-style: none;
+	margin: 10px auto;
+	padding: 0px;
+	margin: 0px;
+}
+.button {
+	background-color: #e1ad01;
+	color: white;
+	max-width: 300px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 5px black;
+	border-radius: 5px;
+	text-align: center;
+
+	list-style: none;
+}
+.button:hover {
+	background-color: white;
+	color: teal;
+	transition: 1s;
+}
+
+a {
+	text-decoration: none;
 }
