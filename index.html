@@ -1,343 +1,321 @@
 <!DOCTYPE html>
-<html lang="FR">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Je vous présente mon portfolio qui retrace mes atouts, les outils et langauges que je maitrise, mes pincipales ressource et mes premiers projets web ." />
+    <meta name="description" content="Je vous présente mon portfolio qui retrace mes atouts, les outils et langages que je maitrise, mes principales ressources et mes premiers projets web ." />
+    <meta name="author" content="Cédric Gouyon" />
     <link rel="stylesheet" href="./index.css" />
-    <title>Cédric Gouyon - Portefolio</title>
+    <link rel="icon" href="./Assets/Images/Photo-pro.ico" />
+    <meta name="robots" content="index,follow" />
+    <title>Cédric Gouyon - Portfolio</title>
   </head>
   <body>
     <header>
-      <img src="./Assets/Images/Photo-pro-cedric.png" alt="photo cedric">
+      <nav>
+        <img src="./Assets/Images/Photo-pro-cedric.png" alt="Photo de Cédric Gouyon" title="Photo de Cédric Gouyon" id="photo-pro" />
+
+        <ul>
+          <li><a href="#section_bienvenue" class="button">Bienvenue</a></li>
+          <li><a href="#section_atouts" class="button">Mes atouts</a></li>
+          <li><a href="#section_outils" class="button">Mes outils</a></li>
+          <li><a href="#section_ressources" class="button">Mes ressources</a></li>
+          <li><a href="#section_projets" class="button">Mes projets</a></li>
+          <li><a href="#section_cv" class="button">Mon CV</a></li>
+          <li><a href="#section_contact" class="button">Me contacter</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <ul>
-        <li><h1>Cédric GOUYON</h1></li>
-        <li><h2>Developpeur web/mobile full-stack</h2></li>
-      </ul>
+      <div>
+        <h1>Cédric GOUYON</h1>
+        <p class="métier"><strong>Developpeur web/mobile full-stack</strong></p>
+      </div>
       <section id="section_bienvenue">
-        <article class="article_bienvenue">
-          <h3>Bienvenue sur mon portefolio</h3>
-          <br />
-          <p>Avant toute chose, je me présente. J'ai 40 ans et je viens me reconverti dans ce beau et passionnant metier.</p>
-          <p>Je recherche une entreprise captivante et enrihissante pour mes 25 prochaines années.</p>
-          <p>Je vous présente mon portfolio qui retrace mes atouts, les outils et langauges que je maitrise, mes pincipales ressource et mes premiers projets web.</p>
-          <br />
-          <a href="./Pages/histoire-pro.html"><p class="button">En savoir plus sur mon histoire professionnelle</p></a>
-
-          <a href="./Assets/Docs/CV Cédric Gouyon.pdf" target="_blank"><p class="button">Consultez mon CV</p></a>
+        <article id="article_bienvenue">
+          <h2>Bienvenue sur mon portfolio</h2>
+          <p>Avant toute chose, je me présente. J'ai 40 ans et je viens me reconvertir dans ce beau et passionnant métier.</p>
+          <p>Je recherche une entreprise captivante et enrichissante pour mes 25 prochaines années.</p>
+          <p>Je vous présente mon portfolio qui retrace mes atouts, les outils et langages que je maitrise, mes principales ressources et mes premiers projets web.</p>
+        </article>
+        <article>
+          <a href="./Pages/histoire-pro.html" class="button">En savoir plus sur mon histoire professionnelle</a>
+          <a href="./Assets/Docs/CV Cédric Gouyon.pdf" target="_blank" rel="noopener noreferrer" class="button">Consultez mon CV</a>
         </article>
       </section>
-      <section id="section_services">
-        <h3>Mes atouts & compétencs</h3>
+      <!-- section atouts-->
+      <section id="section_atouts">
+        <h2>Mes atouts & compétences</h2>
         <p>Curieux, autonome et toujours motivé à apprendre, je mets mon énergie au service des projets.</p>
-        <article class="article_services">
-          <card class="card_services">
-            <img src="./Assets/Images/hearing_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image écoute" class="ico_card" />
-            <p>ECOUTE</p>
+        <article>
+          <figure>
+            <img src="./Assets/Images/hearing_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant l'écoute" />
+            <figcaption>ECOUTE</figcaption>
             <p class="info">Attentif aux différentes demandes des collaborateurs et clients</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/category_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image ergonomie" class="ico_card" />
-            <p>ERGONOMIE</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/category_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant l'ergonomie" />
+            <figcaption>ERGONOMIE</figcaption>
             <p class="info">Soucieux de l'expérience utilisateur</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/database_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image données" class="ico_card" />
-            <p>DONNÉES</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/database_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant les données" />
+            <figcaption>DONNÉES</figcaption>
             <p class="info">Soigneux dans le traitement des bases de données</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/file_open_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image créativité" class="ico_card" />
-            <p>CRÉATIVITÉ</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/file_open_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant la créativité" />
+            <figcaption>CRÉATIVITÉ</figcaption>
             <p class="info">Optimise au maximum chacune des idées selon les besoins et les envies</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/favorite2_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image passion" class="ico_card" />
-            <p>PASSION</p>
-            <p class="info">Met beaucoup de coeur à l'ouvrage pour chaques projets</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/dashboard_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image flexible" class="ico_card" />
-            <p>FLEXIBLE</p>
-            <p class="info">Sais etre fexible au moment voulu</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/security_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image securite" class="ico_card" />
-            <p>SECURITE</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/favorite2_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant la passion" />
+            <figcaption>PASSION</figcaption>
+            <p class="info">Met beaucoup de coeur à l'ouvrage pour chaque projet</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/dashboard_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant la flexibilité" />
+            <figcaption>FLEXIBLE</figcaption>
+            <p class="info">Sais etre flexible au moment voulu</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/security_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant la securite" />
+            <figcaption>SECURITE</figcaption>
             <p class="info">Sais garder le secret professionnel et loi Rgpd</p>
-          </card>
-          <card class="card_services">
-            <img src="./Assets/Images/visibility_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image veille techno" class="ico_card" />
-            <p>VEILLE TECHNO</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Images/visibility_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Image représentant la veille techno" />
+            <figcaption>VEILLE TECHNO</figcaption>
             <p class="info">Toujours à l'affût des nouvelles technologies</p>
-          </card>
+          </figure>
         </article>
+        <!-- section outils -->
       </section>
       <section id="section_outils">
-        <h3>Les outils & languages maitrisés</h3>
-        <br />
-        <p>Mes compétences sont en constantes améliorations, J'ai la chance de faire ce metier et d'en apprendre tous les jours, <br />d’autant plus en étant je suis passionné d'informatique depuis des années, impliqué, curieux des nouvelles fonctionalitées</p>
-        <br />
-        <article class="article_outils">
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-vscode.png" alt="icone Vs Code" class="ico_card" />
-            <p>Vs code</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-html.png" alt="Icone html" class="ico_card" />
-            <p>Html</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-css.png" alt="Icone CSS" class="ico_card" />
-            <p>Css</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-js.png" alt="Icone javasript" class="ico_card" />
-            <p>Javascript</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-git.png" alt="Icone git" class="ico_card" />
-            <p>Git</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-github.png" alt="Icone github" class="ico_card" />
-            <p>Github</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-node.png" alt="Icone node js" class="ico_card" />
-            <p>Node js</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-figma.png" alt="Icone figma" class="ico_card" />
-            <p>Figma</p>
-          </card>
-          <!-- <card class="card_outils">
-            <img src="./Assets/Icones/icone-php.png" alt="Icone php" class="ico_card" />
-            <p>Php</p>
-          </card> -->
-          <!-- <card class="card_outils">
-            <img src="./Assets/Icones/icone-python.png" alt="Icone python" class="ico_card" />
-            <p>Python</p>
-          </card> -->
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-wireframe.png" alt="icone wireframe" class="ico_card" />
-            <p>Wireframe</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-adobe-color.svg" alt="Icone adobe" class="ico_card" />
-            <p>Adobe</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone- ilovepdf.webp" alt="Icone i love pdf" class="ico_card" />
-            <p>I love PDF & IMG</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-kwixeo.png" alt="Icone kwixeo" class="ico_card" />
-            <p>CRM/ERP Kwixeo</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-google.png" alt="Icone google" class="ico_card" />
-            <p>Google Workspace</p>
+        <h2>Les outils & languages maitrisés</h2>
+        <p>Mes compétences sont en constantes améliorations, J'ai la chance de faire ce métier et d'en apprendre tous les jours, d’autant plus en d’autant plus que je suis passionné d'informatique depuis des années, impliqué, curieux des nouvelles fonctionnalités</p>
+        <article>
+          <figure>
+            <img src="./Assets/Icones/icone-vscode.png" alt="Icône Vs Code" />
+            <figcaption>Vs code</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-html.png" alt="Icône html" />
+            <figcaption>Html</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-css.png" alt="Icône CSS" />
+            <figcaption>Css</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-js.png" alt="Icône javascript" />
+            <figcaption>Javascript</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-git.png" alt="Icône git" />
+            <figcaption>Git</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-github.png" alt="Icône github" />
+            <figcaption>Github</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-node.png" alt="Icône node js" />
+            <figcaption>Node js</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-figma.png" alt="Icône figma" />
+            <figcaption>Figma</figcaption>
+          </figure>
+          <!-- <figure>
+            <img src="./Assets/Icones/icone-php.png" alt="Icône php" />
+            <figcaption>Php</figcaption>
+          </figure> -->
+          <!-- <figure>
+            <img src="./Assets/Icones/icone-python.png" alt="Icône python" />
+            <figcaption>Python</figcaption>
+          </figure> -->
+          <figure>
+            <img src="./Assets/Icones/icone-wireframe.png" alt="Icône wireframe" />
+            <figcaption>Wireframe</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-adobe-color.svg" alt="Icône adobe" />
+            <figcaption>Adobe</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone- ilovepdf.webp" alt="Icône i love pdf" />
+            <figcaption>I love PDF & IMG</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-kwixeo.png" alt="Icône kwixeo" />
+            <figcaption>CRM/ERP Kwixeo</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-google.png" alt="Icône google" />
+            <figcaption>Google Workspace</figcaption>
             <p class="info">Docs, Sheet, Meet, Gmail, Drive,...</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icons8-logo-office-48.png" alt="Icone office" class="ico_card" />
-            <p>Suite Office</p>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icons8-logo-office-48.png" alt="Icône office" />
+            <figcaption>Suite Office</figcaption>
             <p class="info">Word, Excel, Powerpoint</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone- wappalyzer.webp" alt="Icone wappalyzer" class="ico_card" />
-            <p>Chrome. Wappalyser</p>
-          </card>
-          <card class="card_outils">
-            <img src="./Assets/Icones/icone-colorzilla.png" alt="Icone colorzilla" class="ico_card" />
-            <p>Chrome. Colorzilla</p>
-          </card>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone- wappalyzer.webp" alt="Icône Wappalyzer" />
+            <figcaption>Chrome. Wappalyser</figcaption>
+          </figure>
+          <figure>
+            <img src="./Assets/Icones/icone-colorzilla.png" alt="Icône colorzilla" />
+            <figcaption>Chrome. Colorzilla</figcaption>
+          </figure>
         </article>
       </section>
+      <!-- section ressources -->
       <section id="section_ressources">
-        <h3>Mes ressources utilisées</h3>
-        <br />
-        <p>Mes ressources sont le fruit d'un travail rigoureux, d'une veille constante et d'une passion pour le bon travail. <br />Elles me servent quotidiennement pour apporter une valeur ajoutée et permettre de me démarquer dans un monde en constante évolution.</p>
-        <br />
-        <article class="article_ressources">
-          <card class="card_ressources">
-            <a href="https://pixabay.com/fr/" target="_blank"
-              ><img src="./Assets/Icones/icone-pixabay.png" alt="Icone pixabay" class="ico_card" />
-              <p>Pixabay</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://fr.freepik.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-freepik.svg" alt="Icone freepik" class="ico_card" />
-              <p>Freepik</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://unsplash.com/fr" target="_blank"
-              ><img src="./Assets/Icones/icone-unsplash.png" alt="Icone unsplash" class="ico_card" />
-              <p>unsplash</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://icones8.fr/" target="_blank"
-              ><img src="./Assets/Icones/icone-icon8.png" alt="Icone icons8" class="ico_card" />
-              <p>Icons8</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://storyset.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-Storyset.png" alt="Icone storyset" class="ico_card" />
-              <p>Storyset</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://fr.vecteezy.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-vecteezy.png" alt="Icone vecteery" class="ico_card" />
-              <p>Vecteezy</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://www.pexels.com/fr-fr/" target="_blank"
-              ><img src="./Assets/Icones/icone-pexels.png" alt="icone pexels" class="ico_card" />
-              <p>Pexels</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://fonts.google.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-google-fonts.svg" alt="icone google fonts" class="ico_card" />
-              <p>Google fonts</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://uiverse.io/" target="_blank"
-              ><img src="./Assets/Icones/icone-uiverse.png" alt="icone uiverse" class="ico_card" />
-              <p>Uiverse</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://coolors.co/" target="_blank"
-              ><img src="./Assets/Icones/icone-coolors.png" alt="Icone coolors" class="ico_card" />
-              <p>Coolors</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://color.adobe.com/fr/create/color-wheel" target="_blank"
-              ><img src="./Assets/Icones/icone-adobe-color.svg" alt="icone color adobe" class="ico_card" />
-              <p>Color Adobe</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://dribbble.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-dribbble.png" alt="Icone dribbble" class="ico_card" />
-              <p>DRIBBBLE</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://pagespeed.web.dev/" target="_blank"
-              ><img src="./Assets/Icones/icone-page-speed-insights.png" alt="Icoen page speed insights" class="ico_card" />
-              <p>Pages spped insights</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://fontinterceptor.mschfmag.com/" target="_blank"
-              ><img src="./Assets/Icones/icone-font-interceptor.png" alt="Icone font interceptor" class="ico_card" />
-              <p>font interceptor</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://validator.w3.org/" target="_blank"
-              ><img src="./Assets/Icones/icone-w3c.png" alt="Icone w3c" class="ico_card" />
-              <p>Validator W3C</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
-              ><img src="./Assets/Icones/icone-w3c.png" alt="Icone w3c" class="ico_card" />
-              <p>Validator Css</p></a
-            >
-          </card>
-          <card class="card_ressources">
-            <a href="https://developer.mozilla.org/fr/" target="_blank"
-              ><img src="./Assets/Icones/icone- mdn.webp" alt="Icone mdn" class="ico_card" />
-              <p>Mdn web docs</p></a
-            >
-          </card>
+        <h2>Mes ressources utilisées</h2>
+        <p>Mes ressources sont le fruit d'un travail rigoureux, d'une veille constante et d'une passion pour le bon travail. Elles me servent quotidiennement pour apporter une valeur ajoutée et permettre de me démarquer dans un monde en constante évolution.</p>
+        <article>
+          <figure>
+            <a href="https://pixabay.com/fr/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-pixabay.png" alt="Icône pixabay" /> </a>
+            <figcaption>Pixabay</figcaption>
+          </figure>
+          <figure>
+            <a href="https://fr.freepik.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-freepik.svg" alt="Icône freepik" /> </a>
+            <figcaption>Freepik</figcaption>
+          </figure>
+          <figure>
+            <a href="https://unsplash.com/fr" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-unsplash.png" alt="Icône Unsplash" /> </a>
+            <figcaption>Unsplash</figcaption>
+          </figure>
+          <figure>
+            <a href="https://icones8.fr/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-icon8.png" alt="Icône icons8" /> </a>
+            <figcaption>Icons8</figcaption>
+          </figure>
+          <figure>
+            <a href="https://storyset.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-Storyset.png" alt="Icône storyset" /> </a>
+            <figcaption>Storyset</figcaption>
+          </figure>
+          <figure>
+            <a href="https://fr.vecteezy.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-vecteezy.png" alt="Icône vecteery" /> </a>
+            <figcaption>Vecteezy</figcaption>
+          </figure>
+          <figure>
+            <a href="https://www.pexels.com/fr-fr/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-pexels.png" alt="Icône pexels" /> </a>
+            <figcaption>Pexels</figcaption>
+          </figure>
+          <figure>
+            <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-google-fonts.svg" alt="Icône google fonts" /> </a>
+            <figcaption>Google fonts</figcaption>
+          </figure>
+          <figure>
+            <a href="https://uiverse.io/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-uiverse.png" alt="Icône uiverse" /> </a>
+            <figcaption>Uiverse</figcaption>
+          </figure>
+          <figure>
+            <a href="https://coolors.co/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-coolors.png" alt="Icône coolors" /> </a>
+            <figcaption>Coolors</figcaption>
+          </figure>
+          <figure>
+            <a href="https://color.adobe.com/fr/create/color-wheel" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-adobe-color.svg" alt="Icône color adobe" /> </a>
+            <figcaption>Color Adobe</figcaption>
+          </figure>
+          <figure>
+            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-dribbble.png" alt="Icône dribbble" /> </a>
+            <figcaption>Dribble</figcaption>
+          </figure>
+          <figure>
+            <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-page-speed-insights.png" alt="Icône page speed insights" /> </a>
+            <figcaption>Page speed insights</figcaption>
+          </figure>
+          <figure>
+            <a href="https://fontinterceptor.mschfmag.com/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-font-interceptor.png" alt="Icône Font interceptor" /> </a>
+            <figcaption>Font interceptor</figcaption>
+          </figure>
+          <figure>
+            <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-w3c.png" alt="Icône w3c" /> </a>
+            <figcaption>Validator W3C</figcaption>
+          </figure>
+          <figure>
+            <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone-w3c.png" alt="Icône w3c" /> </a>
+            <figcaption>Validator Css</figcaption>
+          </figure>
+          <figure>
+            <a href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener noreferrer"><img src="./Assets/Icones/icone- mdn.webp" alt="Icône mdn" /> </a>
+            <figcaption>Mdn web docs</figcaption>
+          </figure>
         </article>
       </section>
+      <!-- section projets -->
       <section id="section_projets">
-        <h3>Mes premiers projets web</h3>
-        <br />
-        <p>Je suis fier de vous présenter une sélection de mes projets web réalisés, qui témoignent de ma passion pour le développement et de mon engagement envers la qualité. <br />Chaque projet a été conçu avec soin, en tenant compte des besoins spécifiques de mes clients et des dernières tendances du web</p>
-        <br />
-        <article class="article_projets">
-          <card class="card_projets">
-            <a href="https://cedricgouyon.github.io/portfolio-gouyon-cedric/" target="_blank"
+        <h2>Mes premiers projets web</h2>
+
+        <p>Je suis fier de vous présenter une sélection de mes projets web réalisés, qui témoignent de ma passion pour le développement et de mon engagement envers la qualité. Chaque projet a été conçu avec soin, en tenant compte des besoins spécifiques de mes clients et des dernières tendances du web</p>
+
+        <article>
+          <figure class="projet">
+            <a href="https://cedricgouyon.github.io/portfolio-gouyon-cedric/" target="_blank" rel="noopener noreferrer"
               ><img src="./Assets/Images/Site Portfolio.png" alt="Portfolio" />
-              <p>CEDRIC GOUYON - Ce porfolio</p>
+              <p>CEDRIC GOUYON - Ce portfolio</p>
               <p>Portfolio professionnel</p>
               <p>85 Saint Jean de Monts</p></a
             >
-          </card>
-          <card class="card_projets">
-            <a href="https://cedricgouyon.github.io/click-dev/" target="_blank"
-              ><img src="./Assets/Images/Site Clickdev.png" alt="Site click'dev" class="ico_card" />
+          </figure>
+          <figure class="projet">
+            <a href="https://cedricgouyon.github.io/click-dev/" target="_blank" rel="noopener noreferrer"
+              ><img src="./Assets/Images/Site Clickdev.png" alt="Site click'dev" />
               <p>CLICK'DEV - Premier projet collaboratif</p>
               <p>Quiz pour jeune developpeur</p>
               <p>Formation developpeur web Remote</p></a
             >
-          </card>
-          <card class="card_projets">
-            <a href="https://cedricgouyon.github.io/coreex-menuiserie/" target="_blank"
-              ><img src="./Assets/Images/Site Coreex Menuiserie.png" alt="site coreex batiment" class="ico_card" />
+          </figure>
+          <figure class="projet">
+            <a href="https://cedricgouyon.github.io/coreex-menuiserie/" target="_blank" rel="noopener noreferrer"
+              ><img src="./Assets/Images/Site Coreex Menuiserie.png" alt="site coreex batiment" />
               <p>COREEX MENUISERIE (en cours)</p>
-              <p>Artisan du bois à vos mesures - refonte complete su site</p>
+              <p>Artisan du bois à vos mesures - refonte complète du site</p>
               <p>85 Soullans</p></a
             >
-          </card>
-          <!-- <card class="card_projets">
-            <img src="/A-Images/Image Fictive 2.PNG" alt="Image fictive" class="ico_card" />
+          </figure>
+          <!-- <figure class="projet">
+            <img src="/A-Images/Image Fictive.PNG" alt="Image fictive" />
             <p>ENTREPRISE</p>
             <p>Slogan</p>
-            <p>85 Ville</p>
-          </card> -->
+            <p>Ville</p>
+          </figure> -->
         </article>
       </section>
+      <!-- section cv -->
       <section id="section_cv">
-        <h3>Consulter mon CV</h3>
-        <br />
-        <p>Je serais ravi de discuter de vos projets et de la manière dont mes compétences pourraient y contribuer. <br />Je vous invite à consulter mon CV et à me contacter</p>
-        <br />
-        <a href="./Assets/Docs/CV Cédric Gouyon.pdf" target="_blank"><p class="button">Consultez mon CV</p></a>
-        <a href="https://www.linkedin.com/in/cedricgouyon/" target="_blank"><p class="button">Retrouver moi sur LINKEDIN</p></a>
+        <h2>Consulter mon CV</h2>
+
+        <p>Je serais ravi de discuter de vos projets et de la manière dont mes compétences pourraient y contribuer. Je vous invite à consulter mon CV et à me contacter</p>
+        <article>
+          <a href="./Assets/Docs/CV Cédric Gouyon.pdf" target="_blank" rel="noopener noreferrer" class="button">Consultez mon CV</a>
+          <a href="https://www.linkedin.com/in/cedricgouyon/" target="_blank" rel="noopener noreferrer" class="button">Retrouvez-moi sur Linkedin</a>
+        </article>
       </section>
+      <!-- section contact -->
       <section id="section_contact">
-        <h3>Contactez moi</h3>
-        <br />
-        <p>Je serais ravi de discuter avec vous des opportunités de collaboration <br />et de vous présenter plus en détail comment je peux contribuer à votre entreprise.</p>
-        <br />
+        <h2>Contactez moi</h2>
+        <p>Je serais ravi de discuter avec vous des opportunités de collaboration et de vous présenter plus en détail comment je peux contribuer à votre entreprise.</p>
         <p>Par téléphone ou sms</p>
         <p><strong>06 75 56 48 52</strong></p>
-        <br />
         <p>Par mail</p>
         <p><strong>gouyoncedric@gmail.com</strong></p>
-        <br />
         <p>Par courrier</p>
         <p>17 Chemin de la Parée Verte 85160 Saint Jean de Monts</p>
-        <br />
         <p>-------------------------------</p>
         <!-- <p class="button">Par ce formulaire</p> -->
-        <br />
-        <p>N’hésitez pas à me contacter, pour un éventuel entretien ou un rendez-vous, même juste pour une question. <br />Je vous répondrai avec plaisir sinon laisser moi un message et j'y repondrai dans les meilleurs délais. A bientôt</p>
+
+        <p>N’hésitez pas à me contacter, pour un éventuel entretien ou un rendez-vous, même juste pour une question. Je vous répondrai avec plaisir sinon laisser moi un message et j'y repondrai dans les meilleurs délais. A bientôt</p>
       </section>
     </main>
     <footer>
       <p>Cédric GOUYON</p>
-      <i>Mise a jour le 25 avril 2025</i>
+      <small>Mise a jour le 25 avril 2025</small>
       <br />
-      <i>Site internet responsive, s'adapte à tous vous écrans</i>
+      <small>Site internet responsive, s'adapte à tous vos écrans</small>
     </footer>
   </body>
 </html>
