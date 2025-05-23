@@ -5,8 +5,8 @@
 }
 
 :root {
-  --main-color: #008080;
-  --secondary-color: #e1ad01;
+  --main-color: #3b6e47;
+  --secondary-color: #f4c95d;
   --default-color: white;
 }
 
@@ -37,6 +37,8 @@ body {
   #section_projets,
   #section_contact {
     padding: 50px 20px;
+    box-shadow: 0 -4px 10px rgba(59, 110, 71, 0.15);
+    background-color: var(--background-soft); /* pour contraste doux */
     p {
       width: 80%;
       margin: auto;
