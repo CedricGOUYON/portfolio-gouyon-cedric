@@ -148,7 +148,6 @@ body {
 
   footer {
     background-color: black;
-    height: 120px;
     color: var(--default-color);
     margin-top: 20px;
     p {
